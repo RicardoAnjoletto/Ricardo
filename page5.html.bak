@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maravilha 1 - Ruínas de Petra</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-image: url('background1.jpg');
+            background-size: cover;
+            color: #000000;
+        }
+        p {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-image: url('background1.jpg');
+            background-size: cover;
+            color: #ffffff;
+        }
+        nav {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 1em 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 5px 10px;
+            background-color: #444;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: #000000;
+        }
+
+        h1 {
+            margin-top: 20px;
+        }
+
+        p {
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .gallery img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .side-image {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="page1.html">Maravilha 1</a></li>
+            <li><a href="page2.html">Maravilha 2</a></li>
+            <li><a href="page3.html">Maravilha 3</a></li>
+            <li><a href="page4.html">Maravilha 4</a></li>
+            <li><a href="page5.html">Maravilha 5</a></li>
+        </ul>
+    </nav>
+    <h1>Ruínas de Petra</h1>
+    <p>As Ruínas de Petra são uma cidade antiga localizada no sul da Jordânia, famosa por suas construções esculpidas em rocha e sua importância histórica e arqueológica. Considerada uma das novas sete maravilhas do mundo, Petra foi construída pelos nabateus por volta do século VI a.C. e foi um importante centro de comércio na região, conectando rotas comerciais entre o Oriente e o Ocidente. A cidade é conhecida por sua fachada esculpida em rocha chamada "Al-Khazneh" ou "O Tesouro", que é o monumento mais famoso de Petra. Além disso, Petra possui um vasto complexo de tumbas, templos e edifícios, todos esculpidos em penhascos de arenito vermelho. Sua beleza única e sua história fascinante atraem milhões de turistas todos os anos.</p>
+    
+    <div class="gallery">
+        <img src="P1.jpg" alt="Al-Khazneh, o Tesouro, em Petra">
+        <img src="P2.jpg" alt="Ruínas de Petra">
+        <img src="P3.jpg" alt="Templo em Petra">
+    </div>
+
+    <img src="P4.jpg" alt="Vista vertical de Petra" class="side-image">
+</body>
+</html>
